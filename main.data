@@ -1252,7 +1252,7 @@ process player_car(start_x, start_y)
     x = start_x;
     y = start_y;
     z = 0; // Carro no plano principal
-    angle = -90;
+    angle = 90;
     var angle_old = angle;
     xold = x;
     yold = y;
