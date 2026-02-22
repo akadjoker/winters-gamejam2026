@@ -71,11 +71,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-<<<<<<< HEAD
-// include: /tmp/tmp5yud5big.js
-=======
-// include: /tmp/tmpenjw85x9.js
->>>>>>> 831ef2e (add preload)
+// include: /tmp/tmpktr54e9n.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -205,43 +201,25 @@ Module['FS_createPath']("/", "scripts", true, true);
     }
 
     }
-<<<<<<< HEAD
-    loadPackage({"files": [{"filename": "/assets/crash.wav", "start": 0, "end": 4015}, {"filename": "/scripts/main.bu", "start": 4015, "end": 81839}], "remote_package_size": 81839});
-
-  })();
-
-// end include: /tmp/tmp5yud5big.js
-// include: /tmp/tmpgy360sni.js
-=======
     loadPackage({"files": [{"filename": "/assets/black_ice.ogg", "start": 0, "end": 4774}, {"filename": "/assets/bounce.ogg", "start": 4774, "end": 8464}, {"filename": "/assets/casa_0.png", "start": 8464, "end": 17535}, {"filename": "/assets/casa_1.png", "start": 17535, "end": 28177}, {"filename": "/assets/casa_2.png", "start": 28177, "end": 37421}, {"filename": "/assets/crash.ogg", "start": 37421, "end": 43046}, {"filename": "/assets/crash.wav", "start": 43046, "end": 47061}, {"filename": "/assets/delivery.ogg", "start": 47061, "end": 53630}, {"filename": "/assets/delivery.wav", "start": 53630, "end": 99694}, {"filename": "/assets/gift_pick.ogg", "start": 99694, "end": 121204}, {"filename": "/assets/loja_verde.png", "start": 121204, "end": 126259}, {"filename": "/assets/pickup.ogg", "start": 126259, "end": 143248}, {"filename": "/assets/pickup.wav", "start": 143248, "end": 566690}, {"filename": "/assets/repair.ogg", "start": 566690, "end": 573725}, {"filename": "/assets/tic2.wav", "start": 573725, "end": 576187}, {"filename": "/assets/traction.ogg", "start": 576187, "end": 582821}, {"filename": "/assets/ui_back.ogg", "start": 582821, "end": 586684}, {"filename": "/assets/ui_move.ogg", "start": 586684, "end": 590900}, {"filename": "/assets/ui_select.ogg", "start": 590900, "end": 595450}, {"filename": "/scripts/main.bu", "start": 595450, "end": 677233}], "remote_package_size": 677233});
 
   })();
 
-// end include: /tmp/tmpenjw85x9.js
-// include: /tmp/tmphv5rqyqn.js
->>>>>>> 831ef2e (add preload)
+// end include: /tmp/tmpktr54e9n.js
+// include: /tmp/tmpzav6uxk_.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-<<<<<<< HEAD
-  // end include: /tmp/tmpgy360sni.js
-// include: /tmp/tmp0clb332o.js
-=======
-  // end include: /tmp/tmphv5rqyqn.js
-// include: /tmp/tmpddjs73gi.js
->>>>>>> 831ef2e (add preload)
+  // end include: /tmp/tmpzav6uxk_.js
+// include: /tmp/tmp4hbzsuy3.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-<<<<<<< HEAD
-  // end include: /tmp/tmp0clb332o.js
-=======
-  // end include: /tmp/tmpddjs73gi.js
->>>>>>> 831ef2e (add preload)
+  // end include: /tmp/tmp4hbzsuy3.js
 
 
 var arguments_ = [];
