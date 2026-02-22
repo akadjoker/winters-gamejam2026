@@ -71,7 +71,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmpktr54e9n.js
+// include: /tmp/tmpa36fnts_.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -201,25 +201,25 @@ Module['FS_createPath']("/", "scripts", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/assets/black_ice.ogg", "start": 0, "end": 4774}, {"filename": "/assets/bounce.ogg", "start": 4774, "end": 8464}, {"filename": "/assets/casa_0.png", "start": 8464, "end": 17535}, {"filename": "/assets/casa_1.png", "start": 17535, "end": 28177}, {"filename": "/assets/casa_2.png", "start": 28177, "end": 37421}, {"filename": "/assets/crash.ogg", "start": 37421, "end": 43046}, {"filename": "/assets/crash.wav", "start": 43046, "end": 47061}, {"filename": "/assets/delivery.ogg", "start": 47061, "end": 53630}, {"filename": "/assets/delivery.wav", "start": 53630, "end": 99694}, {"filename": "/assets/gift_pick.ogg", "start": 99694, "end": 121204}, {"filename": "/assets/loja_verde.png", "start": 121204, "end": 126259}, {"filename": "/assets/pickup.ogg", "start": 126259, "end": 143248}, {"filename": "/assets/pickup.wav", "start": 143248, "end": 566690}, {"filename": "/assets/repair.ogg", "start": 566690, "end": 573725}, {"filename": "/assets/tic2.wav", "start": 573725, "end": 576187}, {"filename": "/assets/traction.ogg", "start": 576187, "end": 582821}, {"filename": "/assets/ui_back.ogg", "start": 582821, "end": 586684}, {"filename": "/assets/ui_move.ogg", "start": 586684, "end": 590900}, {"filename": "/assets/ui_select.ogg", "start": 590900, "end": 595450}, {"filename": "/scripts/main.bu", "start": 595450, "end": 677233}], "remote_package_size": 677233});
+    loadPackage({"files": [{"filename": "/assets/black_ice.ogg", "start": 0, "end": 4774}, {"filename": "/assets/bounce.ogg", "start": 4774, "end": 8464}, {"filename": "/assets/casa_0.png", "start": 8464, "end": 17535}, {"filename": "/assets/casa_1.png", "start": 17535, "end": 28177}, {"filename": "/assets/casa_2.png", "start": 28177, "end": 38000}, {"filename": "/assets/crash.ogg", "start": 38000, "end": 43625}, {"filename": "/assets/crash.wav", "start": 43625, "end": 47640}, {"filename": "/assets/delivery.ogg", "start": 47640, "end": 54209}, {"filename": "/assets/delivery.wav", "start": 54209, "end": 100273}, {"filename": "/assets/gift_pick.ogg", "start": 100273, "end": 121783}, {"filename": "/assets/loja_verde.png", "start": 121783, "end": 128778}, {"filename": "/assets/pickup.ogg", "start": 128778, "end": 145767}, {"filename": "/assets/pickup.wav", "start": 145767, "end": 569209}, {"filename": "/assets/repair.ogg", "start": 569209, "end": 576244}, {"filename": "/assets/tic2.wav", "start": 576244, "end": 578706}, {"filename": "/assets/traction.ogg", "start": 578706, "end": 585340}, {"filename": "/assets/ui_back.ogg", "start": 585340, "end": 589203}, {"filename": "/assets/ui_move.ogg", "start": 589203, "end": 593419}, {"filename": "/assets/ui_select.ogg", "start": 593419, "end": 597969}, {"filename": "/scripts/main.bu", "start": 597969, "end": 679752}], "remote_package_size": 679752});
 
   })();
 
-// end include: /tmp/tmpktr54e9n.js
-// include: /tmp/tmpzav6uxk_.js
+// end include: /tmp/tmpa36fnts_.js
+// include: /tmp/tmpvxizk0vo.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmpzav6uxk_.js
-// include: /tmp/tmp4hbzsuy3.js
+  // end include: /tmp/tmpvxizk0vo.js
+// include: /tmp/tmpzojmkmfr.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmp4hbzsuy3.js
+  // end include: /tmp/tmpzojmkmfr.js
 
 
 var arguments_ = [];
